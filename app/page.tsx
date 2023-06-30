@@ -1,6 +1,9 @@
+'use client'
+
+import React, { useEffect, useState} from 'react';
 import Section1 from '@/src/components/section1'
 import Image from 'next/image'
-import { Center } from 'native-base'
+
 import Section2 from '@/src/components/section2'
 import Section3 from '@/src/components/section3'
 
@@ -16,9 +19,25 @@ import carros from '../src/image/carros.png'
 import imc from '../src/image/imc.png'
 import metas from '../src/image/metas.png'
 
+
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobileScreen = window.innerWidth <= 768; // Defina a largura em que você considera como "mobile"
+      setIsMobile(isMobileScreen);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Verifica a largura inicial ao carregar a página
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+   
   return (
-    <div style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
+    <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{ fontSize: 20 }}>Olá, eu sou</h2>
         <h1 style={{ fontFamily: 'Mazzard', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
@@ -52,8 +71,16 @@ export default function Home() {
       </section>
 
       
-     
-        <Section2 />
+      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+  {isMobile ? (
+    <div>
+      <Section2 />
+    </div>
+  ) : (
+    <Section2 />
+  )}
+</section>
+       
      
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
@@ -62,8 +89,15 @@ export default function Home() {
       </section>
 
      
-        <Section3 />
-     
+      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+  {isMobile ? (
+    <div>
+      <Section3 />
+    </div>
+  ) : (
+    <Section3 />
+  )}
+</section>
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Meus trabalhos</h2>
