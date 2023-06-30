@@ -1,6 +1,6 @@
-'use client'
 
-import React, { useEffect, useState} from 'react';
+
+import React from 'react';
 import Section1 from '@/src/components/section1'
 import Image from 'next/image'
 
@@ -18,26 +18,18 @@ import cardapio from '../src/image/cardapio.png'
 import carros from '../src/image/carros.png'
 import imc from '../src/image/imc.png'
 import metas from '../src/image/metas.png'
-
+import { useMediaQuery } from 'react-responsive'
 
 export default function Home() {
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    const handleResize = () => {
-      const isMobileScreen = window.innerWidth <= 768; // Defina a largura em que você considera como "mobile"
-      setIsMobile(isMobileScreen);
-    };
-
-    window.addEventListener('resize', handleResize);
-    handleResize(); // Verifica a largura inicial ao carregar a página
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
    
   return (
+   
     <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
+    
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{ fontSize: 20 }}>Olá, eu sou</h2>
         <h1 style={{ fontFamily: 'Mazzard', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
@@ -70,16 +62,13 @@ export default function Home() {
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Como elas podem ajudar você</h1>
       </section>
 
-      
-      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-  {isMobile ? (
-    <div>
+    
+      {
+      isTabletOrMobile &&
       <Section2 />
-    </div>
-  ) : (
-    <Section2 />
-  )}
-</section>
+    }
+      
+    
        
      
 
@@ -88,16 +77,13 @@ export default function Home() {
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Suas necessidades profissionais</h1>
       </section>
 
-     
-      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-  {isMobile ? (
-    <div>
-      <Section3 />
-    </div>
-  ) : (
-    <Section3 />
-  )}
-</section>
+      {
+      isTabletOrMobile &&
+       <Section3 />
+    }
+      
+    
+   
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Meus trabalhos</h2>
@@ -329,9 +315,11 @@ style={{borderRadius:15}}
         linkmessage='Envie uma mensagem'
         
         />
+        
       </section>
 
 
     </div>
+    
   )
 }
