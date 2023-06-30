@@ -9,9 +9,9 @@ icon: ReactNode
 export default function Section2() {
   return (
     <section>
-      <div style={{ display: 'flex', justifyContent: 'center', padding: 20 }}>
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', marginRight: 40, padding: 25, maxWidth: '100%' }}>
-          <h1 style={{ fontFamily: 'Mazzard', fontSize: 24 }}>Desenvolvimento Front end</h1>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: 20, }}>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: '35%', marginRight: '4%'}}>
+          <h1 style={{ fontFamily: 'Mazzard', fontSize: 24,textAlign: 'center' }}>Desenvolvimento Front end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center' }}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="HTML" level="Experiente" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="JAVASCRIPT" level="Experiente" />
@@ -23,8 +23,8 @@ export default function Section2() {
           </div>
         </div>
 
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, maxWidth: '100%' }}>
-          <h1 style={{ fontFamily: 'Mazzard', fontSize: 24 }}>Desenvolvimento Back end</h1>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:'35%' }}>
+          <h1 style={{ fontFamily: 'Mazzard', fontSize: 24,textAlign: 'center' }}>Desenvolvimento Back end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22}  />}title="NodeJs" level="Iniciante" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="FIREBASE" level="Iniciante" />
