@@ -1,5 +1,11 @@
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { ReactNode } from 'react';
 
+import { BsPatchCheckFill } from 'react-icons/bs'
+type props = {
+  title: string
+  level: string
+icon: ReactNode
+}
 export default function Section2() {
   return (
     <section>
@@ -30,7 +36,7 @@ export default function Section2() {
   )
 }
 
-function SkillItem({ icon, title, level }) {
+function SkillItem({ icon , title, level }: props) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', marginTop: 20 }}>
       {icon}
