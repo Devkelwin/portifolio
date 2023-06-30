@@ -10,7 +10,7 @@ export default function Section2() {
   return (
     <section>
       <div style={{ display: 'flex', justifyContent: 'center', padding: 20, }}>
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: '35%', marginRight: '4%'}}>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: '40%', marginRight: '5%'}}>
           <h1 style={{ fontFamily: 'Mazzard', fontSize: 24,textAlign: 'center' }}>Desenvolvimento Front end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center' }}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="HTML" level="Experiente" />
@@ -23,7 +23,7 @@ export default function Section2() {
           </div>
         </div>
 
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:'35%' }}>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:'40%' }}>
           <h1 style={{ fontFamily: 'Mazzard', fontSize: 24,textAlign: 'center' }}>Desenvolvimento Back end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22}  />}title="NodeJs" level="Iniciante" />
@@ -41,8 +41,8 @@ function SkillItem({ icon , title, level }: props) {
     <div style={{ display: 'flex', alignItems: 'center', marginTop: 20 }}>
       {icon}
       <div style={{ marginLeft: 10 }}>
-        <h1 style={{ fontSize: 25, textAlign: 'left', margin: 0, fontFamily: 'Mazzard' }}>{title}</h1>
-        <h2 style={{ textAlign: 'left', margin: 0, fontFamily: 'Mazzard' }}>{level}</h2>
+        <h1 style={{ fontSize: '80%', textAlign: 'left', margin: 0, fontFamily: 'Mazzard',color:'white' }}>{title}</h1>
+        <h2 style={{ textAlign: 'left', margin: 0, fontFamily: 'Mazzard',color: 'white',fontSize: '70%' }}>{level}</h2>
       </div>
     </div>
   )
