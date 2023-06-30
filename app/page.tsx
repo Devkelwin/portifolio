@@ -52,18 +52,18 @@ export default function Home() {
       </section>
 
       
-      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+     
         <Section2 />
-      </section>
+     
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Um parceiro para</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Suas necessidades profissionais</h1>
       </section>
 
-      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+     
         <Section3 />
-      </section>
+     
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Meus trabalhos</h2>
