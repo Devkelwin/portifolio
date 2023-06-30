@@ -8,10 +8,17 @@ import ContactEmail from '@/src/components/contactemail'
 import ContactInsta from '@/src/components/contactinsta'
 import ContactZap from '@/src/components/contactzap'
 import Section4 from '@/src/components/section4'
+import portifolio from '../src/image/portifolioimage.png'
+import agenda from '../src/image/Agenda.png'
+import barber from '../src/image/barber.png'
+import cardapio from '../src/image/cardapio.png'
+import carros from '../src/image/carros.png'
+import imc from '../src/image/imc.png'
+import metas from '../src/image/metas.png'
 
 export default function Home() {
   return (
-    <div style={{ background: "linear-gradient(#182337 ,#1b7075 );", height: '100%',paddingBottom:60 }}>
+    <div style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{ fontSize: 20 }}>Olá, eu sou</h2>
         <h1 style={{ fontFamily: 'Mazzard', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
@@ -21,7 +28,7 @@ export default function Home() {
       <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
 
          <Image
-      src={require('../src/image/portifolioimage.png')}
+      src={portifolio}
       width={350}
       height={350}
       alt="Picture of the author"
@@ -73,7 +80,7 @@ export default function Home() {
         <section style={{width:450,height:150}}>
         <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
         <Image
-      src={require('../src/image/metas.png')}
+      src={metas}
       width={250}
       height={200}
       alt="Picture of the author"
@@ -98,7 +105,7 @@ export default function Home() {
         <section style={{width:450,height:150}}>
         <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
         <Image
-      src={require('../src/image/imc.png')}
+      src={imc}
       width={250}
       height={200}
       alt="Picture of the author"
@@ -128,7 +135,7 @@ export default function Home() {
   <section style={{width:450,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
-src={require('../src/image/barber.png')}
+src={barber}
 width={250}
 height={200}
 alt="Picture of the author"
@@ -153,7 +160,7 @@ style={{borderRadius:15}}
   <section style={{width:450,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
-src={require('../src/image/carros.png')}
+src={carros}
 width={250}
 height={200}
 alt="Picture of the author"
@@ -191,7 +198,7 @@ style={{borderRadius:15}}
   <section style={{width:450,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
-src={require('../src/image/cardapio.png')}
+src={cardapio}
 width={250}
 height={200}
 alt="Picture of the author"
@@ -216,7 +223,7 @@ style={{borderRadius:15}}
   <section style={{width:450,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
-src={require('../src/image/Agenda.png')}
+src={agenda}
 width={250}
 height={200}
 alt="Picture of the author"
