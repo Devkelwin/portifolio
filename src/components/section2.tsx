@@ -5,7 +5,7 @@ export default function Section2() {
   return (
     <section>
       <section style={{ display: 'flex', justifyContent: 'center', padding: 20 }}>
-        <section style={{ background: "#182337", height: '100%', width: 400, borderRadius: 40, marginTop: '3%', marginRight: 40,padding:25 }}>
+        <section style={{ background: "#182337", height: '100%', width: 400, borderRadius: 40, marginTop: '3%', marginRight: 40,padding:25,maxWidth: '1224px'}}>
         
           <h1 style={{fontFamily: 'Mazzard',fontSize:24}}>Desenvolvimento Front end</h1>
 <section style={{justifyContent: 'center',paddingLeft:60,alignItems: 'center'}}>
@@ -80,7 +80,7 @@ export default function Section2() {
 
 
         
-        <section style={{ background: "#182337", height: '100%', width: 400, borderRadius: 40, marginTop: '3%',padding:25 }}>
+        <section style={{ background: "#182337", height: '100%', width: 400, borderRadius: 40, marginTop: '3%',padding:25, maxWidth: '1224px'}}>
         
         <h1 style={{fontFamily: 'Mazzard',fontSize:24}}>Desenvolvimento Back end</h1>
 

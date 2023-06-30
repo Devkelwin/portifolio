@@ -20,7 +20,7 @@ export default function Section1() {
           </section>
            
             
-            <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingLeft:10,paddingRight:10,padding:10}}>Sou um programador web e mobile com o objetivo de criar soluções criativas e funcionais para os usuários, superando as expectativas dos clientes. Sou apaixonado por aprender novas tecnologias e tendências do mercado, e tenho habilidades em linguagens de programação como Javascript e frameworks como React JS e React Native. Se precisa de um programador web e mobile experiente e dedicado, estou à disposição para ajudar.</h1>
+            <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingLeft:10,paddingRight:10,padding:10,color: 'white'}}>Sou um programador web e mobile com o objetivo de criar soluções criativas e funcionais para os usuários, superando as expectativas dos clientes. Sou apaixonado por aprender novas tecnologias e tendências do mercado, e tenho habilidades em linguagens de programação como Javascript e frameworks como React JS e React Native. Se precisa de um programador web e mobile experiente e dedicado, estou à disposição para ajudar.</h1>
         </header>
       
 

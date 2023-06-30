@@ -18,22 +18,17 @@ import cardapio from '../src/image/cardapio.png'
 import carros from '../src/image/carros.png'
 import imc from '../src/image/imc.png'
 import metas from '../src/image/metas.png'
-import { useMediaQuery } from 'react-responsive'
+
 
 export default function Home() {
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
-   
   return (
    
     <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
     
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{ fontSize: 20 }}>Olá, eu sou</h2>
+        <h2 style={{ fontSize: 20,color: 'white' }}>Olá, eu sou</h2>
         <h1 style={{ fontFamily: 'Mazzard', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
-        <h2 style={{ fontSize: 20 }}>Desenvolvedor Front-End</h2>
+        <h2 style={{ fontSize: 20,color: 'white' }}>Desenvolvedor Front-End</h2>
       </header>
 
       <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
@@ -48,7 +43,7 @@ export default function Home() {
      
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2>Quem eu sou na</h2>
+        <h2 color='white'>Quem eu sou na</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 24, fontFamily: 'Mazzard' }}>Programação</h1>
       </section>
 
@@ -58,15 +53,13 @@ export default function Home() {
 
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Minhas experiências e</h2>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Minhas experiências e</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Como elas podem ajudar você</h1>
       </section>
 
     
-      {
-      isTabletOrMobile &&
       <Section2 />
-    }
+    
       
     
        
@@ -77,10 +70,8 @@ export default function Home() {
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Suas necessidades profissionais</h1>
       </section>
 
-      {
-      isTabletOrMobile &&
        <Section3 />
-    }
+    
       
     
    
@@ -320,6 +311,5 @@ style={{borderRadius:15}}
 
 
     </div>
-    
   )
 }

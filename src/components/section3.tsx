@@ -4,7 +4,7 @@ export default function Section3() {
 
   return (
     <section style={{ display: 'flex', justifyContent: 'center', padding: 20 }}>
-    <section style={{ background: "#182337", height: '100%', width: 400, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',marginRight:40}}>
+    <section style={{ background: "#182337", height: '100%', width: 400, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',marginRight:40,maxWidth: '1224px'}}>
 
         <section style={{ background: "#34ebe2", height: 120, width: 400,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
 
@@ -65,7 +65,7 @@ export default function Section3() {
 
 
 
-    <section style={{ background: "#182337", height: 480, width: 400, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%'}}>
+    <section style={{ background: "#182337", height: 480, width: 400, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',maxWidth: '1224px'}}>
 
         <section style={{ background: "#34ebe2", height: 120, width: 400,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
 
