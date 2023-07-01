@@ -217,7 +217,7 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center'}}>Projeto - Consumo Diário</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center'}}>Projeto - App Hamburgueria</h1>
 <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Firebase</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 
@@ -242,7 +242,7 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center'}}>Projeto Calculadora IMC</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center'}}>Projeto - Agendamento Salão de beleza</h1>
 <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Javascript</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 
