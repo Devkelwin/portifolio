@@ -229,7 +229,7 @@ style={{borderRadius:15}}
 
 
 
-<div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%' }}>
+<div style={{background: "#182337",height: 750, width: '100%', borderRadius:25,marginTop: '3%' }}>
   
   <section style={{width:450,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
