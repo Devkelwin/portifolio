@@ -284,7 +284,7 @@ style={{borderRadius:15}}
 <h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Consumo Diário</h1>
     <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
     <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-    <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+   
       </section>
         </section>
     
