@@ -43,7 +43,7 @@ export default function Home() {
      
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{color: 'white'}}>Quem eu sou na</h2>
+        <h2 style={{color: 'white',fontFamily: 'Mazzard'}}>Quem eu sou na</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 24, fontFamily: 'Mazzard' }}>Programação</h1>
       </section>
 
@@ -90,41 +90,16 @@ export default function Home() {
     
    
 
-      <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Meus trabalhos</h2>
-        <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Portfólio</h1>
-      </section>
-
-      
-      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
-
-        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
-        
-        <section style={{width:385,height:150}}>
-        <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-        <Image
-      src={metas}
-      width={250}
-      height={200}
-      alt="Picture of the author"
-      style={{borderRadius:15}}
-    />
-
-    </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Consumo Diário</h1>
-    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
-    <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-    <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
-      </section>
-        </section>
-    
-    </div>
-      </section>
+   
 
  
       
     
-
+    <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Meus trabalhos</h2>
+        <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Portfólio</h1>
+      </section>
+      
       <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }}>
         <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
         
@@ -219,7 +194,7 @@ style={{borderRadius:15}}
 
 
 <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Projetos</h2>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Projetos</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Em Desenvolvimento</h1>
       </section>
 
@@ -275,10 +250,35 @@ style={{borderRadius:15}}
 
 </div>
 
+      </section>
 
 
+    
 
+      
+      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
 
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
+        
+        <section style={{width:385,height:150}}>
+        <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
+        <Image
+      src={metas}
+      width={250}
+      height={200}
+      alt="Picture of the author"
+      style={{borderRadius:15}}
+    />
+
+    </section>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Consumo Diário</h1>
+    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
+    <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
+    <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+      </section>
+        </section>
+    
+    </div>
       </section>
 
 
@@ -292,10 +292,8 @@ style={{borderRadius:15}}
 
 
 
-
-
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Precisando falar comigo?</h2>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Precisando falar comigo?</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Contate-me</h1>
       </section>
 

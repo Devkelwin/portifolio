@@ -10,7 +10,7 @@ export default function Section1() {
               <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
                 
                 <section style={{minHeight: '40%',width: '90%',backgroundColor: '#34ebe2',borderRadius:20,marginRight:25,paddingTop: '2%'}} >
-                    <h1 style={{color: '#182337',fontFamily: 'Mazzard',fontSize:22}}>Experiência</h1>
+                    <h1 style={{color: '#182337',fontFamily: 'Mazzard',fontSize:21}}>Experiência</h1>
                     <h2 style={{color: '#182337',fontFamily: 'Mazzard'}} >Mais de 1 ano no mercado de trabalho</h2>
                 </section>
                 <section style={{minHeight: '40%',width: '90%',backgroundColor: '#34ebe2',borderRadius: 20,paddingTop: '2%'}} >
