@@ -10,8 +10,8 @@ export default function Section2() {
   return (
     <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
       <div style={{ justifyContent: 'center', padding: 20,alignItems: 'center' }}>
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: '60%'}}>
-          <h1 style={{ fontSize: 36,fontFamily: 'Mazzard',textAlign: 'center'}}>Desenvolvimento Front end</h1>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: 550}}>
+          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Front end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center' }}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="HTML" level="Experiente" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="JAVASCRIPT" level="Experiente" />
@@ -23,8 +23,8 @@ export default function Section2() {
           </div>
         </div>
 
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:'60%',alignItems: 'center' }}>
-          <h1 style={{ fontFamily: 'Mazzard', fontSize: 36,textAlign: 'center',}}>Desenvolvimento Back end</h1>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:550,alignItems: 'center' }}>
+          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Back end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22}  />}title="NodeJs" level="Iniciante" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="FIREBASE" level="Iniciante" />
@@ -42,7 +42,7 @@ function SkillItem({ icon , title, level }: props) {
       {icon}
       <div style={{ marginLeft: 10 }}>
         <h1 style={{  textAlign: 'left', margin: 0, fontFamily: 'Mazzard',color:'white' }}>{title}</h1>
-        <h2 style={{ textAlign: 'left', margin: 0, fontFamily: 'Mazzard',color: 'white',fontSize: '70%' }}>{level}</h2>
+        <h2 style={{ textAlign: 'left', margin: 0, fontFamily: 'Mazzard',color: 'white' }}>{level}</h2>
       </div>
     </div>
   )

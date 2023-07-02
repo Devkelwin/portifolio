@@ -23,7 +23,7 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 export default function Home() {
   return (
    
-    <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60 }}>
+    <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60,width: '100%' }}>
     
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{ fontSize: 20,color: 'white' }}>Olá, eu sou</h2>
@@ -59,16 +59,13 @@ export default function Home() {
 
      
 
-      <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
-     <Section2 />
-      </section>
+      <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
+        <Section2 />
+      </header>
+     
+   
 
-      <BrowserView>
-  <h1 style={{color: 'red'}}>This is rendered only in browser</h1>
-</BrowserView>
-<MobileView>
-  <h1  style={{color: 'green'}}>This is rendered only on mobile</h1>
-</MobileView>
+     
 
 
     
