@@ -18,7 +18,7 @@ import cardapio from '../src/image/cardapio.png'
 import carros from '../src/image/carros.png'
 import imc from '../src/image/imc.png'
 import metas from '../src/image/metas.png'
-
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect'
 
 export default function Home() {
   return (
@@ -57,8 +57,21 @@ export default function Home() {
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Como elas podem ajudar você</h1>
       </section>
 
+     
+
+      <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
+     <Section2 />
+      </section>
+
+      <BrowserView>
+  <h1 style={{color: 'red'}}>This is rendered only in browser</h1>
+</BrowserView>
+<MobileView>
+  <h1  style={{color: 'green'}}>This is rendered only on mobile</h1>
+</MobileView>
+
+
     
-      <Section2 />
     
       
     
