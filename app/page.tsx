@@ -43,7 +43,7 @@ export default function Home() {
      
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 color='white'>Quem eu sou na</h2>
+        <h2 style={{color: 'white'}}>Quem eu sou na</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 24, fontFamily: 'Mazzard' }}>Programação</h1>
       </section>
 
@@ -76,7 +76,7 @@ export default function Home() {
      
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Um parceiro para</h2>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard', color: 'white'}}>Um parceiro para</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Suas necessidades profissionais</h1>
       </section>
 
@@ -91,18 +91,16 @@ export default function Home() {
    
 
       <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{fontSize: 18,fontFamily: 'Mazzard'}}>Meus trabalhos</h2>
+        <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Meus trabalhos</h2>
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Portfólio</h1>
       </section>
 
       
+      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
 
-      <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-
- 
-      <div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%',marginRight:80 }}>
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
         
-        <section style={{width:450,height:150}}>
+        <section style={{width:385,height:150}}>
         <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
         <Image
       src={metas}
@@ -113,21 +111,24 @@ export default function Home() {
     />
 
     </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center'}}>Projeto - Consumo Diário</h1>
-    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Javascript</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Consumo Diário</h1>
+    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
     <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
     <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
       </section>
         </section>
     
     </div>
+      </section>
+
+ 
+      
     
 
-
-     
-    <div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%' }}>
+      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }}>
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
         
-        <section style={{width:450,height:150}}>
+        <section style={{width:385,height:150}}>
         <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
         <Image
       src={imc}
@@ -138,26 +139,28 @@ export default function Home() {
     />
 
     </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center'}}>Projeto Calculadora IMC</h1>
-    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Javascript</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center',color: 'white'}}>Projeto Calculadora IMC</h1>
+    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
     <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
     <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
       </section>
         </section>
     
     </div>
+      </section>
+     
+    
     
 
 
-      </section>
+     
 
 
-      <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
+      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }} >
 
- 
-<div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%',marginRight:80 }}>
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
   
-  <section style={{width:450,height:150}}>
+  <section style={{width:385,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
 src={barber}
@@ -168,21 +171,22 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center'}}>Projeto - Barbeiro Delivery</h1>
-<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Firebase</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Barbeiro Delivery</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Firebase</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
 </section>
   </section>
 
 </div>
+      </section>
 
+ 
 
-
-
-<div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%' }}>
+      <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }} >
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
   
-  <section style={{width:450,height:150}}>
+  <section style={{width:385,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
 src={carros}
@@ -193,18 +197,23 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center'}}>Projeto Cadastro de carros da empresa</h1>
-<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e MongoDB</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center',color: 'white'}}>Projeto Cadastro de carros da empresa</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e MongoDB</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
 </section>
   </section>
 
 </div>
+      </section>
 
 
 
-</section>
+
+
+
+
+
 
 
 
@@ -215,12 +224,10 @@ style={{borderRadius:15}}
       </section>
 
 
-      <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-
- 
-<div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%',marginRight:80 }}>
+      <section  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }}>
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%'}}>
   
-  <section style={{width:450,height:150}}>
+  <section style={{width:385,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
 src={cardapio}
@@ -231,21 +238,24 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center'}}>Projeto - App Hamburgueria</h1>
-<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Firebase</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - App Hamburgueria</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Firebase</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 
 </section>
   </section>
 
 </div>
+      </section>
+
+ 
 
 
 
-
-<div style={{background: "#182337",height: 750, width:450, borderRadius:25,marginTop: '3%' }}>
+      <section  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',paddingBottom:'3%' }}>
+        <div style={{background: "#182337",height: 750, width:380, borderRadius:25,marginTop: '3%' }}>
   
-  <section style={{width:450,height:150}}>
+  <section style={{width:385,height:150}}>
   <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
   <Image
 src={agenda}
@@ -256,8 +266,8 @@ style={{borderRadius:15}}
 />
 
 </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center'}}>Projeto - Agendamento Salão de beleza</h1>
-<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center'}} >Nele trabalhei com React Native e Javascript</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center',color: 'white'}}>Projeto - Agendamento Salão de beleza</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
 
 </section>
@@ -267,7 +277,10 @@ style={{borderRadius:15}}
 
 
 
-</section>
+
+
+      </section>
+
 
 
 

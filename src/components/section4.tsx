@@ -17,8 +17,8 @@ export default function Section4() {
     />
 
     </section>
-<h1 style={{fontFamily: 'Mazzard',fontSize:22}}>Projeto - Barbeiro Delivery</h1>
-    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20}} >Nele trabalhei com React Native e Firebase</h1>
+<h1 style={{fontFamily: 'Mazzard',fontSize:22,color: 'white'}}>Projeto - Barbeiro Delivery</h1>
+    <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,color: 'white'}} >Nele trabalhei com React Native e Firebase</h1>
     <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
       
         </section>
