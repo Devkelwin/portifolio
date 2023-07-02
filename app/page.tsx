@@ -52,9 +52,9 @@ export default function Home() {
       </section>
 
 
-      <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
+      <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%',paddingBottom: '6%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Minhas experiências e</h2>
-        <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Como elas podem ajudar você</h1>
+        <h1 style={{ color: '#34ebe2', fontSize: 24, fontFamily: 'Mazzard' }}>Como elas podem ajudar você</h1>
       </section>
 
      
@@ -325,11 +325,11 @@ style={{borderRadius:15}}
 
  <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
         <ContactInsta
-        link='https://www.instagram.com/kelwin_carlos012/'
+        link='https://www.instagram.com/devkelwin/'
         title='Instagram'
         info='Kelwin Carlos'
         linkmessage='Envie uma mensagem'
-        
+
         />
       </section>
 

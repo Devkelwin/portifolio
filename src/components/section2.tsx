@@ -11,7 +11,7 @@ export default function Section2() {
     <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
       <div style={{ justifyContent: 'center', padding: 20,alignItems: 'center' }}>
         <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: 380,height: '100%'}}>
-          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Front end</h1>
+          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>No desenvolvimento Front end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center' }}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="HTML" level="Experiente" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="JAVASCRIPT" level="Experiente" />
@@ -24,7 +24,7 @@ export default function Section2() {
         </div>
 
         <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:380,alignItems: 'center',height: '100%' }}>
-          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Back end</h1>
+          <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>No desenvolvimento Back end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22}  />}title="NodeJs" level="Iniciante" />
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="FIREBASE" level="Iniciante" />
