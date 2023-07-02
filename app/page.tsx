@@ -116,8 +116,14 @@ export default function Home() {
     </section>
 <h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center',color: 'white'}}>Projeto Calculadora IMC</h1>
     <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Javascript</h1>
+    
     <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-    <button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+   <a href='https://github.com/Devkelwin/Calculadora-Diario'>
+      <button   style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+   </a>
+      
+   
+  
       </section>
         </section>
     
@@ -149,7 +155,9 @@ style={{borderRadius:15}}
 <h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign:  'center',color: 'white'}}>Projeto - Barbeiro Delivery</h1>
 <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e Firebase</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-<button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+<a href='https://github.com/Devkelwin/BarberDelivery'>
+      <button   style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+   </a>
 </section>
   </section>
 
@@ -175,7 +183,9 @@ style={{borderRadius:15}}
 <h1 style={{fontFamily: 'Mazzard',fontSize:22,textAlign: 'center',color: 'white'}}>Projeto Cadastro de carros da empresa</h1>
 <h1 style={{fontFamily: 'Mazzard',fontSize:16,paddingTop:20,paddingBottom:20,textAlign: 'center',color: 'white'}} >Nele trabalhei com React Native e MongoDB</h1>
 <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
-<button style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+<a href='https://github.com/Devkelwin/CarStatus'>
+      <button   style={{backgroundColor: '#34ebe2',width:160,height:55,color: '#182337',borderRadius:15, fontFamily:'Mazzard',fontSize:20}}>Github</button>
+   </a>
 </section>
   </section>
 

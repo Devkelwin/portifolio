@@ -15,7 +15,7 @@ export default function Section1() {
                 </section>
                 <section style={{minHeight: '40%',width: '90%',backgroundColor: '#34ebe2',borderRadius: 20,paddingTop: '2%'}} >
                 <h1 style={{color: '#182337',fontFamily: 'Mazzard'}}>Projetos</h1>
-                    <h2 style={{color: '#182337',fontFamily: 'Mazzard',paddingBottom:10}} >Experiência com projetos em equipe</h2>
+                    <h2 style={{color: '#182337',fontFamily: 'Mazzard',paddingBottom:10,padding:5}} >Experiência com projetos em equipe</h2>
                 </section>
           </section>
            
