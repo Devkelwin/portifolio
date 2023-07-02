@@ -80,7 +80,11 @@ export default function Home() {
         <h1 style={{ color: '#34ebe2', fontSize: 28, fontFamily: 'Mazzard' }}>Suas necessidades profissionais</h1>
       </section>
 
-       <Section3 />
+      
+      <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
+<Section3 />
+      </header>
+       
     
       
     

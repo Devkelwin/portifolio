@@ -10,7 +10,7 @@ export default function Section2() {
   return (
     <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
       <div style={{ justifyContent: 'center', padding: 20,alignItems: 'center' }}>
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: 350,height: '100%'}}>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: 380,height: '100%'}}>
           <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Front end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center' }}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22} />} title="HTML" level="Experiente" />
@@ -23,7 +23,7 @@ export default function Section2() {
           </div>
         </div>
 
-        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:350,alignItems: 'center',height: '100%' }}>
+        <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25, width:380,alignItems: 'center',height: '100%' }}>
           <h1 style={{ fontFamily: 'Mazzard',textAlign: 'center',color: 'white'}}>Desenvolvimento Back end</h1>
           <div style={{ display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
             <SkillItem icon={<BsPatchCheckFill color='#fff' size={22}  />}title="NodeJs" level="Iniciante" />
