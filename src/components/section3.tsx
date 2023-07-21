@@ -11,7 +11,7 @@ export default function Section3() {
     // Função para verificar se o conteúdo excede a largura da tela
     const checkContentOverflow= () => {
       const section = document.querySelector('.section3');
-      const sectionWidth = section.scrollWidth;
+      const sectionWidth = section!.scrollWidth;
       const screenWidth = window.innerWidth;
 
       setIsContentOverflowing(sectionWidth > screenWidth);
