@@ -4,7 +4,7 @@ export default function Section3() {
 
   return (
   
-    <section style={{ justifyContent: 'center',display: 'flex'}}>
+    <section className='section3' style={{ justifyContent: 'center',display: 'flex'}}>
     
     <section style={{ background: "#182337", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',marginRight: '4%'}}>
 
