@@ -26,10 +26,11 @@
   }
 }
 
-body {
-  white-space: pre-wrap;
-  overflow-wrap: break-word;
+/* Estilo com display block */
+.section3.block-display {
+  display: block;
 }
+
 
 
 body {

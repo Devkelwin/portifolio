@@ -81,8 +81,10 @@ export default function Home() {
       </section>
 
       
-    
+    <header style={{display: 'flex', justifyContent: 'center',alignItems: 'center'}}>
 <Section3 />
+    </header>
+
    
 
    
