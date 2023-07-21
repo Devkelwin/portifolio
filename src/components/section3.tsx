@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import { AiOutlineCheck } from 'react-icons/ai'
+
 export default function Section3() {
 
   return (
   
     <section className='section3' style={{ justifyContent: 'center',display: 'flex'}}>
     
-    <section style={{ background: "#182337", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',marginRight: '4%'}}>
+    <section  style={{ background: "#182337", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '3%',marginRight: '4%'} }  >
 
         <section style={{ background: "#34ebe2", height: 120, width: 380,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
 
