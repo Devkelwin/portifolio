@@ -8,6 +8,7 @@ icon: ReactNode
 }
 export default function Section2() {
   return (
+    <section className='section2'>
     <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
       <div style={{ justifyContent: 'center', padding: 20,alignItems: 'center' }}>
         <div style={{ background: "#182337", borderRadius: 40, marginTop: '3%', padding: 25,width: 380,height: '100%'}}>
@@ -32,6 +33,7 @@ export default function Section2() {
           </div>
         </div>
       </div>
+    </section>
     </section>
   )
 }

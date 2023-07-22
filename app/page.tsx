@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import Section2 from '@/src/components/section2'
 import Section3 from '@/src/components/section3'
-
+import Teste from '@/src/image/Loja.png'
 import ContactEmail from '@/src/components/contactemail'
 import ContactInsta from '@/src/components/contactinsta'
 import ContactZap from '@/src/components/contactzap'
@@ -19,6 +19,7 @@ import carros from '../src/image/carros.png'
 import imc from '../src/image/imc.png'
 import metas from '../src/image/metas.png'
 import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect'
+import ItemPortifolio from '@/src/components/itemportifolio';
 
 export default function Home() {
   return (
@@ -26,9 +27,9 @@ export default function Home() {
     <div id="container"  style={{ background: "linear-gradient(#182337 ,#1b7075 )", height: '100%',paddingBottom:60,width: '100%' }}>
     
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
-        <h2 style={{ fontSize: 20,color: 'white' }}>Olá, eu sou</h2>
-        <h1 style={{ fontFamily: 'Mazzard', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
-        <h2 style={{ fontSize: 20,color: 'white' }}>Desenvolvedor Front-End</h2>
+        <h2 style={{ fontSize: 20,color: 'white',fontFamily: 'Helvetica' }}>Olá, eu sou</h2>
+        <h1 style={{ fontFamily: 'Nud', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
+        <h2 style={{ fontSize: 20,color: 'white',fontFamily: 'Helvetica'  }}>Desenvolvedor Front-End</h2>
       </header>
 
       <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
@@ -59,9 +60,9 @@ export default function Home() {
 
      
 
-      <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '5%',paddingBottom:'5%' }}>
+     
         <Section2 />
-      </header>
+     
      
    
 
@@ -81,9 +82,11 @@ export default function Home() {
       </section>
 
       
-    <header style={{display: 'flex', justifyContent: 'center',alignItems: 'center'}}>
+   <header style={{alignItems: 'center',justifyContent: 'center',display: 'flex'}}>
 <Section3 />
-    </header>
+   </header>
+
+   
 
    
 
@@ -97,7 +100,6 @@ export default function Home() {
    
 
  
-      
     
     <section style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{fontSize: 18,fontFamily: 'Mazzard',color: 'white'}}>Meus trabalhos</h2>

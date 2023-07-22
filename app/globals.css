@@ -1,5 +1,4 @@
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,20 +17,35 @@
   }
 }
 
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textgradient {
+  background-image: linear-gradient(to right, #aff50f, #4cd346);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
 
 @media screen and (max-width: 767px) {
-  .section3 {
+  .section3,.section2 {
     display: block;
-
+   
   }
 }
-
-/* Estilo com display block */
-.section3.block-display {
-  display: block;
-}
-
-
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -41,13 +55,30 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.2;
+  text-align: center;
 }
+
 @font-face {
   font-family: "Mazzard";
-  src: local("Mazzard"),
-    url("../src/fonts/Mazzard.ttf") format("truetype");
+  src: local("Mazzard"), url("../src/fonts/Mazzard.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), url("../src/fonts/Helvetica.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nud";
+  src: local("Nud"), url("../src/fonts/Nud.ttf") format("truetype");
+  font-weight: normal;
+}
+
+
 
 body {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
