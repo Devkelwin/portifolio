@@ -60,8 +60,10 @@ export default function Home() {
 
      
 
-     
-        <Section2 />
+      <header style={{alignItems: 'center',justifyContent: 'center',display: 'flex'}}>
+         <Section2 />
+      </header>
+       
      
      
    
