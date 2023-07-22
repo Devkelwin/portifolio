@@ -28,7 +28,7 @@ export default function Home() {
     
       <header style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', paddingTop: '10%' }}>
         <h2 style={{ fontSize: 20,color: 'white',fontFamily: 'Helvetica' }}>Olá, eu sou</h2>
-        <h1 style={{ fontFamily: 'Nud', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
+        <h1 style={{ fontFamily: 'Helvetica', fontSize: 42, color: '#34ebe2' }}>Kelwin Carlos</h1>
         <h2 style={{ fontSize: 20,color: 'white',fontFamily: 'Helvetica'  }}>Desenvolvedor Front-End</h2>
       </header>
 

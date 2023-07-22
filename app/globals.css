@@ -30,15 +30,6 @@
   align-items: center;
 }
 
-.textgradient {
-  background-image: linear-gradient(to right, #aff50f, #4cd346);
-  color: black;
-  background-clip: text;
-  -webkit-background-clip: text;
-
-  /* Adicionado: */
-  -webkit-text-fill-color: transparent;
-}
 
 @media screen and (max-width: 767px) {
   .section3,.section2 {
@@ -69,13 +60,7 @@ body {
 @font-face {
   font-family: "Helvetica";
   src: local("Helvetica"), url("../src/fonts/Helvetica.otf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Nud";
-  src: local("Nud"), url("../src/fonts/Nud.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: bold;
 }
 
 
