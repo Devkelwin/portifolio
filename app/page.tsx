@@ -339,10 +339,10 @@ style={{borderRadius:15}}
         />
       </section>
   
-   </section>
+  
      
 
-      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+      <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center',margin:12 }}>
         <ContactZap
         link='https://wa.me/5533999492996'
         title='WhatsApp'
@@ -352,7 +352,7 @@ style={{borderRadius:15}}
         />
         
       </section>
-
+ </section>
 
     </div>
   )
