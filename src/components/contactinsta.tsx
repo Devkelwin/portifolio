@@ -16,7 +16,7 @@ export default function ContactInsta({info,linkmessage,title,link}: Props) {
 
   return (
     
-    <div style={{background: "#182337",height: '100%', width:380, borderRadius:25,marginTop: '3%' }}>
+    <div style={{background: "#2c2c6c",height: '100%', width:380, borderRadius:25,marginTop: '3%' }}>
         <section style={{justifyContent: 'center'}}>
 
        
@@ -32,7 +32,7 @@ export default function ContactInsta({info,linkmessage,title,link}: Props) {
        {info}
       </h1>
 
-        <Link  style={{padding: 3,color: '#34ebe2',fontFamily: 'Mazzard'}} href={link} >{linkmessage}</Link>
+        <Link  style={{padding: 3,color: '#4db5ff',fontFamily: 'Mazzard'}} href={link} >{linkmessage}</Link>
         </section>
  </section>
     </div>

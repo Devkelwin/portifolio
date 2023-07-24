@@ -4,16 +4,16 @@ export default function Section1() {
 
   return (
     
-    <div style={{background: "#182337", width:'75%', borderRadius:30,marginTop: '3%' }}>
+    <div style={{background: "#2c2c6c", width:'75%', borderRadius:30,marginTop: '3%' }}>
         
         <header>
               <section style={{display: 'flex',justifyContent: 'center',padding:20}}>
                 
-                <section style={{width: '90%',backgroundColor: '#34ebe2',borderRadius:20,marginRight:25,paddingTop: '2%'}} >
+                <section style={{width: '90%',backgroundColor: '#4db5ff',borderRadius:20,marginRight:25,paddingTop: '2%'}} >
                     <h1 style={{color: '#182337',fontFamily: 'Mazzard'}}>Experiência</h1>
                     <h2 style={{color: '#182337',fontFamily: 'Mazzard',paddingBottom:10,padding:5}} >Mais de 1 ano no mercado de trabalho</h2>
                 </section>
-                <section style={{minHeight: '40%',width: '90%',backgroundColor: '#34ebe2',borderRadius: 20,paddingTop: '2%'}} >
+                <section style={{minHeight: '40%',width: '90%',backgroundColor: '#4db5ff',borderRadius: 20,paddingTop: '2%'}} >
                 <h1 style={{color: '#182337',fontFamily: 'Mazzard'}}>Projetos</h1>
                     <h2 style={{color: '#182337',fontFamily: 'Mazzard',paddingBottom:10,padding:5}} >Experiência com projetos em equipe</h2>
                 </section>

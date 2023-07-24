@@ -14,9 +14,9 @@ export default function Section3() {
     <section className='section3' style={{ justifyContent: 'center'}}>
 
 
-    <section  className='section3item1' style={{ background: "#182337", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '4%',marginRight: '4%'} }  >
+    <section  className='section3item1' style={{ background: "#2c2c6c", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '4%',marginRight: '4%'} }  >
 
-        <section style={{ background: "#34ebe2", height: 120, width: 380,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
+        <section style={{ background: "#4db5ff", height: 120, width: 380,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
 
         <h1 style={{ fontSize: 22,color: '#182337', textAlign: 'center', margin: 0,fontFamily: 'Mazzard',paddingTop:40 }}>Desenvolvimento Mobile</h1>
         </section>
@@ -75,9 +75,9 @@ export default function Section3() {
 
 
 
-    <section  className='section3item2' style={{ background: "#182337", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '4%'}}>
+    <section  className='section3item2' style={{ background: "#2c2c6c", height: 480, width: 380, borderBottomLeftRadius:40,borderBottomRightRadius:40, marginTop: '4%'}}>
 
-        <section style={{ background: "#34ebe2", height: 120, width: 380,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
+        <section style={{ background: "#4db5ff", height: 120, width: 380,borderBottomLeftRadius:40,borderBottomRightRadius:40}} >
 
         <h1 style={{ fontSize: 22,color: '#182337', textAlign: 'center', margin: 0,fontFamily: 'Mazzard',paddingTop:40 }}>Desenvolvimento Web</h1>
         </section>

@@ -19,9 +19,9 @@
 
 .section2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+
+  
+  
 }
 
 .section3 {
@@ -30,13 +30,21 @@
   align-items: center;
 }
 
+.contact {
+  display: flex;
+}
+
 
 @media screen and (max-width: 767px) {
-  .section3,.section2 {
+  .section3,.section2,.contact {
     display: block;
    
   }
 }
+
+
+
+
 
 body {
   color: rgb(var(--foreground-rgb));
